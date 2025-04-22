@@ -1,0 +1,180 @@
+
+header {
+    background-color: #3cac9e;
+    position: sticky;
+    top: 0;
+}.second-con{
+    max-width: 740px;
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+.row {
+    padding: 40px 50px;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+}
+.row h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2f353b!important;
+}
+.signup-options{
+    gap: 25px;
+}
+.option{
+    padding: 30px 20px;
+    border: 1px solid #e9ebee;
+    border-radius: 5px;
+    transition: .4s;
+    margin-bottom: 30px;
+}
+.option:hover{
+    box-shadow: 6px 6px  5px   #c9c7c7;
+}
+.option-img img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    border: 1px solid #ebeef0;
+    border-radius: 50%;
+}
+.signup-options h4{
+    font-size: 16px;
+    color: #525e64;
+    text-align: center;
+    font-weight: 400;
+}
+.signup-options p{
+    font-size: 13px;
+    color: #717171;
+    text-align: center;
+}
+.Button{
+    padding-top: 18px; 
+    padding-bottom: 18px;
+}
+.Button a{
+    text-decoration: none; 
+    font-size: 13px; 
+    font-weight: 400; 
+    border: 1px solid #f9f9f9; 
+    padding: 15px 40px;  
+    border-radius: 50px; 
+    transition: 0.5s; 
+}
+.first a{
+    background-color: #f9f9f9;
+    color: #212121;
+}
+.first a:hover{
+    background-color: #3cac9e;
+}
+.second a{
+    border: 1px solid #3cac9e;
+    color: white; 
+    background-color: #3cac9e;
+}
+.second a:hover{
+    background-color: #2dc2b0;
+}
+.first-con{
+    max-width: 1170px;
+}
+.top{
+    padding: 15px 0;
+}
+.button {
+    padding-top: 8px;
+}
+.one a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #f9f9f9;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.one a:hover{
+    background-color: white;
+    color: black;
+}
+.two a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 0px solid #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+.two a:hover{
+    background-color: #e0e0e0;
+}
+.body{
+    background: #fcfcfc;
+}
+
+.up {
+    padding-top: 30px;
+}
+.down {
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #3cac9e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.third-con{
+    max-width: 1170px;
+}
+.left-side li{
+    list-style: none;
+    float: left;
+}
+.left-side a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-right: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.left-side a:hover{
+    color: #e6e1e1;
+}
+.socialMediaLinks{
+    display: flex;
+    justify-content: end;
+}
+.socialMediaLinks li{
+    list-style: none;
+    float: left;
+}
+.left-side2 li{
+    list-style: none;
+    float: left;
+}
+.left-side2 a{
+    text-decoration: none;
+    color: #e6e1e1;
+    font-weight: 500;
+    padding-right: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.left-side2 a:hover{
+    color: white;
+}
+.apple-store-ggl-store li{
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+}

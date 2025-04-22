@@ -1,0 +1,131 @@
+
+header{
+    background-color: #3cac9e;
+}
+.first-con{
+    max-width: 1170px;
+}
+.top{
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+.button {
+    padding-top: 8px;
+}
+.one a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #f9f9f9;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.one a:hover{
+    background-color: white;
+    color: black;
+}
+.two a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 0px solid #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+.two a:hover{
+    background-color: #e0e0e0;
+}
+
+.custom-container {
+    background-color: #FFD700; /* Yellow */
+    padding: 40px;
+    border-radius: 10px;
+    color: #000;
+  }
+.custom-container h2 {
+    font-weight: 700;
+  }
+.custom-container h5 {
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+.download-section {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+     /* footer */
+
+     .seventh-con{
+        max-width: 1245px;
+    }
+    
+    footer .row{
+        padding-top: 50px;
+    }
+    .fifth-image-icon span {
+        padding: 10px;
+        background-color: #F3F6F3;
+        color: #30c7b5;
+    }
+    .fifth-image-icon span:hover {
+        background-color: #30c7b5;
+        color: white;
+    }
+    .fifth-image-content p {
+        font-size: 18px;
+        color: #4f5655;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+    .fifth-image-icon {
+        padding-bottom: 10%;
+    }
+    
+    .col-heading h6 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        line-height: 1.5;
+    }
+    .col-list ul {
+        padding-left: 0;
+    }
+    .col-list li {
+        list-style: none;
+        padding-bottom: 5px;
+    }
+    .col-list a {
+        text-decoration: none;
+        color: #4f5655;
+        font-size: 18px;
+        font-weight: 400;
+        transition: 0.3s;
+    }
+    .col-list a:hover {
+        color: #30c7b5;
+    }
+    .col-p p {
+        line-height: 30px;
+        color: #4f5655;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    /* seventh-con */
+    
+    .last p {
+        color: #4f5655;
+        text-align: center;
+    
+    }

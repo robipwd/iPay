@@ -1,0 +1,236 @@
+/* responsive.css */
+
+/* Mobile-first adjustments */
+@media (max-width: 767.98px) {
+    header .top {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    }
+  
+    .button {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .custom-container h2,
+    .custom-container h5,
+    .custom-container p,
+    .custom-container ul {
+      text-align: center;
+    }
+  
+    .step-box {
+      margin-bottom: 1.5rem;
+    }
+  
+    .step-box small {
+      font-size: 0.8rem;
+    }
+  
+    .row.text-center {
+      flex-direction: column;
+    }
+  
+    .bg-light-gray {
+      padding: 1rem;
+    }
+  
+    .footer .col {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .fifth-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    footer .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .last p {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  
+  /* Tablet adjustments */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .step-box {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-bottom: 2rem;
+    }
+  
+    footer .row {
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Step box layout fixes */
+  .step-box {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0.5rem auto;
+    min-height: 120px;
+  }
+  
+  .step-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  
+
+  /* XS (extra small devices - phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .custom-container h2,
+  .job-title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .step-box,
+  .job-card {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .button .one,
+  .button .two {
+    margin-left: 0.5rem;
+  }
+}
+
+/* SM (small devices - phones landscape and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .custom-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .job-card {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
+
+/* MD (medium devices - tablets and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .step-box p,
+  .job-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .custom-container {
+    padding: 0 1rem;
+  }
+}
+
+/* LG (large devices - desktops and up) */
+@media (min-width: 992px) {
+  .custom-container h2 {
+    font-size: 2rem;
+  }
+
+  .job-card {
+    padding: 1.5rem;
+  }
+
+  .job-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* ========== Extra Small Devices (xs) - Phones <576px ========== */
+@media (max-width: 575.98px) {
+  h2, h3, h4, h5 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .button,
+  .signup-options {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .option {
+    width: 90% !important;
+    margin-bottom: 20px;
+  }
+
+  .footer ul {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .footer .apple-store-ggl-store {
+    justify-content: center !important;
+  }
+}
+
+/* ========== Small Devices (sm) - 576px and up ========== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .option {
+    width: 80% !important;
+    margin: 10px auto;
+  }
+
+  .custom-container,
+  .job-card {
+    padding: 15px;
+  }
+
+  .step-box {
+    text-align: center;
+  }
+}
+
+/* ========== Medium Devices (md) - Tablets 768px and up ========== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .signup-options {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .option {
+    width: 48% !important;
+  }
+
+  .job-card {
+    font-size: 1rem;
+  }
+
+  .step-box {
+    margin-bottom: 1rem;
+  }
+}
+
+/* ========== Large Devices (lg) - Desktops 992px and up ========== */
+@media (min-width: 992px) {
+  .option {
+    width: 45%;
+  }
+
+  .job-card {
+    padding: 25px;
+  }
+
+  .step-box p {
+    font-size: 1rem;
+  }
+
+  .footer .left-side2 ul {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+  }
+}

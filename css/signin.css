@@ -1,0 +1,45 @@
+
+header{
+    background-color: #3cac9e;
+}
+.first-con{
+    max-width: 1170px;
+}
+.top{
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+.button {
+    padding-top: 8px;
+}
+.one a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #f9f9f9;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.one a:hover{
+    background-color: white;
+    color: black;
+}
+.two a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 0px solid #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+.two a:hover{
+    background-color: #e0e0e0;
+}

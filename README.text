@@ -1,0 +1,38 @@
+
+# 💳 iPay Payment System Clone
+
+A clone of the iPay Bangladesh digital payment platform. This project replicates the basic functionality of iPay, including wallet system, fund transfer, and a dark mode feature. Built using PHP and MySQL.
+
+---
+
+## 🚀 Features
+
+- 🔐 User Registration & Login
+- 💼 Wallet Balance Management
+- 🔄 Fund Transfer Between Users
+- 🌙 Dark Mode Toggle
+- 📱 Responsive UI
+- 🛡️ Secure Login with Session Management
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, Bootstrap
+- **Backend:** PHP
+- **Database:** MySQL
+- **Extras:** JavaScript (for dark mode toggle)
+
+---
+
+## 📷 Screenshots
+
+*Coming soon — include screenshots of your home page, login, wallet, etc.*
+
+---
+
+## 🧪 Installation Guide
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ipay-clone.git
